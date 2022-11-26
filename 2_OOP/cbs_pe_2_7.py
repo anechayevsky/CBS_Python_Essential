@@ -3,7 +3,6 @@ class Transport:
         print(f"{self.name} Вжжжжжж {self.speed} км/г")
 
 
-
 class Railway(Transport):
     pass
 
@@ -143,12 +142,15 @@ class Suborbital_systems(Space):
 class near_Earth_spacecraft(Space):
     pass
 
+
 class Car(Ground):
     color = ''
     speed = 0
 
+
 class Motorbike(Ground):
     speed = 0
+
 
 honda = Motorbike()
 honda.speed = 200
